@@ -1,0 +1,48 @@
+{
+  "category": "CRYPTID",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/batutut",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "batutut",
+    "name": "Batutut",
+    "aliases": [
+      {
+        "name": "Ujit"
+      },
+      {
+        "name": "Ng\u01b0\u1eddi R\u1eebng"
+      },
+      {
+        "name": "Forest Man"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Ape-man",
+    "tags": [
+      "cryptid",
+      "humanoid",
+      "undiscovered",
+      "sightings"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "Large bipedal ape creature reported in Vietnamese jungles, similar to Bigfoot",
+      "full": "Large bipedal ape creature reported in Vietnamese jungles, similar to Bigfoot"
+    }
+  }
+}
