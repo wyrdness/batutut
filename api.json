@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/batutut",
     "maintainers": [
       {
@@ -16,111 +16,270 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "batutut",
     "name": "Batutut",
-    "aliases": [],
+    "aliases": [
+      { "name": "Người Rừng", "language": "Vietnamese", "region": "Vietnam", "meaning": "Forest people / wild man" },
+      { "name": "Ujit", "region": "Vietnam / Laos border" },
+      { "name": "Forest People", "language": "English (regional gloss)", "region": "Vietnam, Laos, Cambodia" },
+      { "name": "Rock Ape", "language": "English (US military slang, Vietnam War era)", "region": "Vietnam" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Ape-man",
+    "subcategory": "Hominid / wild-man cryptid",
     "tags": [
-      "folklore",
-      "mythology"
+      "cryptid",
+      "humanoid",
+      "bipedal",
+      "southeast-asia",
+      "vietnam",
+      "laos",
+      "wild-man",
+      "forest-dwelling"
     ],
     "status": "documented",
     "description": {
-      "summary": "Large bipedal ape creature reported in Vietnamese jungles, similar to Bigfoot This phenomenon represents an important part of Vietnamese folklore and cultural heritage, with documented accounts and traditions spanning generations.",
-      "full": "Large bipedal ape creature reported in Vietnamese jungles, similar to Bigfoot This phenomenon represents an important part of Vietnamese folklore and cultural heritage, with documented accounts and traditions spanning generations."
+      "summary": "A reported hominid cryptid of the forests of Vietnam, Laos and adjacent regions, described as a hairy bipedal 'wild man'. Most prominently associated with the Vu Quang region and with Vietnam War-era 'rock ape' encounters.",
+      "full": "Batutut, also known by the Vietnamese term Người Rừng ('forest people'), is a proposed hominid cryptid of the rainforests of Vietnam, Laos and parts of Cambodia. Witnesses describe a roughly six-foot-tall, bipedal, hair-covered being similar in form to descriptions of Sasquatch, Yeti and Orang Pendek. Reports increased during and after the Vietnam War, when American soldiers reported aggressive hairy bipeds (often called 'rock apes') in the Annamite Range. Vietnamese biologist Tran Hong Viet of the Pedagogic University of Hanoi reported finding and casting large humanoid footprints in Sa Thay District (Kon Tum Province) in 1982 during a post-war biodiversity inventory. The Vu Quang Nature Reserve, where the saola (Pseudoryx nghetinhensis) was scientifically described in 1992, is often cited as a candidate habitat. Mainstream zoologists treat Batutut reports as likely a mix of folklore, misidentified known primates (gibbons, macaques), and wartime stress, while a small number of cryptozoologists hold open the possibility of an unknown great ape."
     },
     "etymology": {
-      "origin": "| Vietnamese |",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The name 'Batutut' is a regional designation used in cryptozoological literature. The Vietnamese name Người Rừng combines người ('person') and rừng ('forest').",
+      "meaning": "Người Rừng: 'forest people' or 'wild man'.",
+      "first_use": "Người Rừng is in long-standing Vietnamese use; 'Batutut' is reported in late 20th-century cryptozoological writing."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Ape-man",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Humanoid",
+      "subtype": "Hairy hominid / wild man",
+      "variant": "Southeast Asian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "bigfoot", "name": "Bigfoot", "relationship": "similar", "description": "North American hairy hominid cryptid" },
+      { "id": "yeti", "name": "Yeti", "relationship": "similar", "description": "Himalayan hairy hominid cryptid" },
+      { "id": "orang-pendek", "name": "Orang Pendek", "relationship": "similar", "description": "Short bipedal hairy cryptid of Sumatra" },
+      { "id": "yeren", "name": "Yeren", "relationship": "similar", "description": "Chinese hairy wild-man cryptid" },
+      { "id": "almas", "name": "Almas", "relationship": "similar", "description": "Central Asian wild-man cryptid" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.7, "max": 2.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["grey", "brown", "black"],
+      "features": [
+        { "feature": "Body hair", "description": "Hair covering most of the body except the knees, palms, soles, and face", "frequency": "always" },
+        { "feature": "Bipedal locomotion", "description": "Walks upright on two legs", "frequency": "always" },
+        { "feature": "Large feet", "description": "Reported tracks measuring approximately 28 × 16 cm in Tran Hong Viet's 1982 casts", "frequency": "common" },
+        { "feature": "Group movement", "description": "Reports describe both solitary individuals and small family groups", "frequency": "occasional" }
+      ],
+      "morphology": "Approximately the height of an adult human (about 6 feet), of generally human bodily proportions but with extensive hair covering and apelike facial features in some accounts."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Forest stealth", "description": "Moves through dense rainforest with apparent ease and avoids human contact", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Aggressive territorial behavior", "description": "Some Vietnam War-era 'rock ape' reports describe rock-throwing or aggressive displays toward intruders", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["tropical rainforest", "limestone karst", "remote highland forest"],
+      "diet": "Presumed omnivorous in cryptozoological accounts; not directly observed",
+      "patterns": [
+        "Reports cluster in remote and biologically rich forest reserves (Vu Quang, Annamite Range)",
+        "Reports rose in the Vietnam War period among US and ARVN troops",
+        "Largely absent from controlled scientific surveys"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "| Vietnamese |",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports cluster in the Annamite Range (Trường Sơn) along the Vietnam–Laos border, and in adjacent forested regions of Vietnam, Laos and Cambodia.",
+      "continents": ["Asia"],
+      "countries": ["Vietnam", "Laos", "Cambodia"],
+      "regions": ["Annamite Range (Trường Sơn)", "Vu Quang", "Central Highlands of Vietnam"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Vu Quang Nature Reserve",
+        "location": {
+          "description": "Protected rainforest in north-central Vietnam, on the Laos border",
+          "country": "Vietnam",
+          "region": "Hà Tĩnh Province",
+          "coordinates": { "latitude": 18.2833, "longitude": 105.4167 }
+        },
+        "peak_period": "1947–present",
+        "notes": "Site of the 1992 saola discovery; often cited as a candidate Người Rừng habitat"
+      },
+      {
+        "name": "Sa Thay District",
+        "location": {
+          "description": "Remote forest district in the Central Highlands",
+          "country": "Vietnam",
+          "region": "Kon Tum Province",
+          "coordinates": { "latitude": 14.4167, "longitude": 107.7833 }
+        },
+        "peak_period": "1982",
+        "notes": "Site of Tran Hong Viet's reported 28 × 16 cm footprint casts"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1947-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "1947 sighting by a French colonist describing 'L'Homme Sauvage'"
+      },
+      "peak_activity_periods": [
+        { "period": "1965–1975", "description": "Vietnam War-era 'rock ape' reports by US and ARVN troops in the Annamite Range" },
+        { "period": "1974", "description": "North Vietnamese General Hoàng Minh Thảo requests an expedition for the creature (unsuccessful)" },
+        { "period": "1982", "description": "Tran Hong Viet reports footprint casts in Sa Thay District" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "| Vietnamese |",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Long-standing Vietnamese, Lao, and Khmer traditions of forest 'wild men'; the Vietnamese term Người Rừng predates 20th-century cryptozoology.",
+      "earliest_accounts": "20th-century written accounts include a 1947 report by a French colonist of 'L'Homme Sauvage'. Indigenous Cham, Bahnar, and Jarai traditions of forest beings predate colonial documentation.",
+      "folklore_connections": "Part of a wider Asian wild-man tradition that includes the Himalayan Yeti, Chinese Yeren, Mongolian Almas, and Sumatran Orang Pendek."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1947-01-01", "event": "French colonist reports an 'L'Homme Sauvage' sighting in Vietnam (precise locality and date not preserved in modern English sources)", "significance": "Earliest 20th-century report cited in cryptozoological literature", "source": "Cryptozoological summaries (Heuvelmans tradition)" },
+      { "date": "1965-01-01", "event": "Vietnam War period: US and ARVN troops report aggressive 'rock apes' in the Annamite Range", "significance": "Brings Người Rừng reports to international attention", "source": "Veteran testimonies and later cryptid books" },
+      { "date": "1974-01-01", "event": "PAVN General Hoàng Minh Thảo requests an expedition to investigate the creature; the expedition is unsuccessful", "significance": "Documents official Vietnamese interest", "source": "Vietnamese cryptozoological reports" },
+      { "date": "1982-01-01", "event": "Tran Hong Viet of the Pedagogic University of Hanoi reports finding and casting 28 × 16 cm humanoid footprints in Sa Thay District during a post-war biodiversity inventory", "significance": "Best-known physical-evidence claim", "source": "Tran Hong Viet, post-war biological survey" },
+      { "date": "1992-01-01", "event": "Saola (Pseudoryx nghetinhensis) scientifically described from Vu Quang", "significance": "Demonstrates that significant unknown large mammals can persist in the region; cited by cryptozoologists as supporting plausibility for Người Rừng", "source": "Dung et al. (1993), Nature 363:443–445" }
+    ],
+    "modern_era": "No specimen, photograph, or genetic evidence accepted by mainstream zoology has been produced. Active biological surveys of the Annamites since the 1990s have catalogued multiple new mammal species (saola, large-antlered muntjac, Annamite striped rabbit) but none consistent with Người Rừng descriptions. The cryptid persists in regional folklore and cryptozoological literature."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1947", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "batutut-sighting-1982-tran-footprints",
+        "name": "Tran Hong Viet footprint casts (Sa Thay District)",
+        "date": { "value": "1982-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Forest near Chu Mo Ray, Sa Thay District, Kon Tum Province",
+          "country": "Vietnam",
+          "region": "Central Highlands",
+          "coordinates": { "latitude": 14.4167, "longitude": 107.7833, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Biologist (Professor Tran Hong Viet)"], "credibility_factors": ["University biologist", "Cast preserved"] },
+        "description": "While conducting a post-war biodiversity inventory near Chu Mo Ray in Sa Thay District, biologist Tran Hong Viet of the Pedagogic University of Hanoi reported encountering large humanoid footprints, which he cast at approximately 28 × 16 cm. The casts have been the most cited piece of physical evidence for Người Rừng / Batutut.",
+        "credibility": { "rating": "low", "factors": ["Single observer", "No corroborating biological samples", "Unpublished in peer-reviewed venues"], "notes": "The most-cited physical-evidence report for the cryptid." },
+        "sources": ["Cryptid encyclopedias citing Tran Hong Viet's report"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "batutut-evidence-tran-casts",
+        "type": "footprint cast",
+        "name": "Tran Hong Viet 1982 casts",
+        "date": "1982",
+        "description": "Plaster casts of humanoid footprints reported at approximately 28 × 16 cm, taken near Chu Mo Ray, Sa Thay District.",
+        "location": "Sa Thay District, Kon Tum Province, Vietnam",
+        "status": "unverified",
+        "analysis": "The casts have not been subjected to peer-reviewed biomechanical analysis comparable to that done on Pacific Northwest casts.",
+        "source": "Tran Hong Viet (1982), Pedagogic University of Hanoi"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
     "trace": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Unknown great-ape hypothesis",
+        "description": "Người Rừng / Batutut could represent an undescribed Southeast Asian primate, given the region's continued discovery of large mammals (e.g. saola in 1992, large-antlered muntjac in 1994) and the dense, poorly surveyed Annamite forests.",
+        "proponents": ["Cryptozoologists including Loren Coleman", "Some researchers in the Heuvelmans tradition"],
+        "evidence_cited": ["Discovery of saola and other large mammals in the same region", "Ethnographic continuity of forest-being narratives"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification of known primates",
+        "description": "Most Người Rừng reports are likely misidentifications of known primates (gibbons, macaques, douc langurs) and bears, often under stressful conditions (war, hunting).",
+        "proponents": ["Mainstream primatologists working in the region"],
+        "evidence_cited": ["Diverse known primate fauna of the Annamites", "Wartime context of many high-profile reports"]
+      },
+      {
+        "name": "Cultural and wartime construct",
+        "description": "The cryptid reflects long-standing Southeast Asian wild-man folklore reinforced by Vietnam War-era stress and folklore transmission among soldiers.",
+        "proponents": ["Folklorists of military legend"],
+        "evidence_cited": ["Concentration of reports in 1965–1975 combat zones", "Pattern of similar 'wild man' figures across Southeast Asia"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Vietnamese Người Rừng tradition",
+        "Bahnar, Jarai, and Cham forest-being narratives",
+        "US Vietnam War 'rock ape' soldier folklore"
+      ],
+      "stories": [
+        "Vietnam War-era rock ape encounters in the Annamite Range",
+        "Tran Hong Viet's 1982 footprint discovery"
+      ],
+      "beliefs": "In rural areas of central Vietnam and the Lao border, Người Rừng is treated as a real if rare forest being; in cryptozoological literature it is grouped with the Asian wild-man tradition."
+    },
+    "indigenous": {
+      "cultures": ["Bahnar", "Jarai", "Cham", "Lao Theung peoples"],
+      "significance": "Forest-being narratives are part of the broader cosmology of Annamite-region peoples whose lives are tied to the forest.",
+      "sensitivity_note": "Indigenous Annamite forest traditions should not be reduced to Western cryptozoological framing.",
+      "respect_guidelines": "Cite Vietnamese-language and Indigenous sources where available; avoid conflating distinct peoples' traditions; treat war-era 'rock ape' stories as a separate (Western military) corpus."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Loren Coleman & Patrick Huyghe, The Field Guide to Bigfoot and Other Mystery Primates (2006)",
+        "Bernard Heuvelmans, On the Track of Unknown Animals (1958, English ed. 1959)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Vietnam War 'rock ape' folklore in veteran memoirs"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Tran Hong Viet", "affiliation": "Pedagogic University of Hanoi (biology)", "contribution": "Reported and cast 28 × 16 cm humanoid footprints in Sa Thay District (1982)", "period": "1980s" },
+      { "name": "Loren Coleman", "affiliation": "International Cryptozoology Museum", "contribution": "Catalogued Người Rừng / Batutut reports in cryptid encyclopedias", "period": "1980s–present" }
+    ],
+    "organizations": [
+      { "name": "International Cryptozoology Society", "url": "https://www.cryptozoologysociety.org", "focus": "Cryptid research, including hominid cryptids" }
+    ],
+    "ongoing_studies": "No specific scientific program targets Người Rừng. Annamite biodiversity surveys (WWF, IUCN, Saola Working Group) operate in the region and have repeatedly turned up new large mammals — but no Người Rừng evidence."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cryptidz-batutut", "type": "website", "title": "Batutut", "publication": "Cryptid Wiki (Fandom)", "url": "https://cryptidz.fandom.com/wiki/Batutut", "accessed": "2026-05-07" },
+    { "id": "cryptidz-nguoi-rung", "type": "website", "title": "Nguoi Rung", "publication": "Cryptid Wiki (Fandom)", "url": "https://cryptidz.fandom.com/wiki/Nguoi_Rung", "accessed": "2026-05-07" },
+    { "id": "monstropedia-nguoi-rung", "type": "website", "title": "Nguoi Rung", "publication": "Monstropedia", "url": "https://monstropedia.org/index.php?title=Nguoi_Rung", "accessed": "2026-05-07" },
+    { "id": "heuvelmans-1958", "type": "book", "title": "On the Track of Unknown Animals", "authors": ["Bernard Heuvelmans"], "publication": "Hill and Wang", "date": "1959" },
+    { "id": "coleman-huyghe-2006", "type": "book", "title": "The Field Guide to Bigfoot and Other Mystery Primates", "authors": ["Loren Coleman", "Patrick Huyghe"], "publication": "Anomalist Books", "date": "2006", "isbn": "978-1933665122" }
+  ]
 }
